@@ -1,0 +1,145 @@
+@charset "UTF-8";
+/*Geral*/
+@font-face {
+    font-family: 'idroid';
+    src: url(fontes/idroid.otf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #4aff9885;
+}
+/* Header */
+header#cabeçalho{
+    display: flex;
+    background-image: linear-gradient(to bottom, #48FA95,#3ad37c,#37BF72,#1A5935);
+    flex-direction:column ;
+}
+
+header#cabeçalho > h1{
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif; 
+    text-align: center;
+}
+
+header#cabeçalho > h2{
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 20px;
+    text-align: center;
+}
+
+form#menu > a {
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+}
+
+form#menu > a:hover{
+    text-decoration: underline;
+    background-color: #48fa9554;
+    font-size: 20px;
+    border-radius: 10%;
+}
+
+/*Main*/
+main{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    background-color: white;
+    box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.315);
+}
+
+article > h1{
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+article >h2 {
+    font-size: 20px;
+    margin-left: 5px;
+    background-image: linear-gradient(to right, #48fa9559, white );
+}
+.titulos{
+    font-family: 'idroid';
+    color:#1b5a36
+
+}
+
+.extra{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 30px;
+}
+
+
+
+/*Fotos e vídeos*/
+article#video {
+    background-color: #1A5935;
+}
+
+article#video > iframe {
+    display: block;
+    width: 90%;
+    height: 420px;
+    margin: 20px auto;
+    padding: 10px 10px;
+}
+
+
+.fotos > img{
+    display: flex;
+    margin: auto;
+    width: 90%;
+    padding: 20px 0px;
+}
+
+picture#fotos > img{
+    display: flex;
+    margin: auto;
+    width: 40%;
+    padding: 20px 0px;
+}
+
+/*SECTION EXTRA*/
+section#extra {
+    display: block;
+    background-color:#4aff9873;
+    border-radius: 24px;
+    text-indent: 20px;
+    margin: 0px 10px ;
+}
+
+section#extra > h1 {
+    color: white;
+    background-color: #237e4aad;
+    border-radius: 24px 24px 0px 0px;
+}
+
+.d-inline {
+    display: inline-block;
+    margin-right: 100px;
+}
+
+.versao{
+    color: black;
+    text-decoration: underline dotted;
+}
+/*Footer*/
+footer {
+    background-color: #1A5935;
+    text-align: center;
+    padding: 5px 1px;
+}
+/*Links*/
+.link {
+    color: rgb(3, 3, 3);
+}
+
+.link:hover {
+    color: blue;
+}
