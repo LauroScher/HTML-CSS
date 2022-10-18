@@ -1,0 +1,83 @@
+@charset "UTF-8"; 
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Secular+One&display=swap');
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+:root{
+    --Azultipo3: #4596D9;
+    --Azultipo2: #52B1FF; 
+    --Azultipo1: #4EA8F2;
+    --Azulpadrao: #316A99;
+}
+
+/*Header*/
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 30px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.692);
+    background:linear-gradient(to left, var(--Azulpadrao), var(--Azultipo1), var(--Azultipo2), var(--Azultipo3));
+}
+
+header > h1 {
+    font-size: 40px;
+    color: aliceblue;
+}
+nav#menu > a {
+    font-size: 20px;
+    margin: 3px;
+    color: azure;
+    text-decoration: none;
+}
+
+nav#menu > a:hover{
+    color: var(--Azultipo1);
+    text-decoration: underline;
+}
+body{
+    background-color: #4dabf857;
+}
+
+/*main*/
+
+main{
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+.img{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    box-shadow: 1px 2px 1px black;
+}
+
+.titles{
+    font-family: 'Lexend', sans-serif;
+    text-align: center;
+    margin: 20px;
+    font-size: 30px;
+}
+
+.paragrafo{
+    margin: 30px;
+    font-size: 20px;
+    text-indent: 20px;
+}
+/*Footer*/
+
+footer{
+    text-align: center;
+}
+
+/*Em breve*/
+
+.embreve{
+    display: flex;
+    margin: auto;
+    width: 50%;
+}

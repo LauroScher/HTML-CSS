@@ -1,0 +1,17 @@
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: auto;
+}
+
+.submit > input{
+    font-size: 20px;
+    margin-left: 277px;
+}
+
+.form > div {
+    margin: 10px;
+}
